@@ -1,0 +1,364 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* header */
+
+header {
+    margin-bottom: 8rem;
+}
+
+.container-header {
+    background-image: url(./images/MAIN\ HEADER.jpg);
+    max-width: 1224px;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 40px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.logo img {
+    width: 50%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.nav-link ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav-link a {
+    text-decoration: none;
+    font-size: 2rem;
+    list-style: none;
+    margin-right: 40px;
+    color: white;
+}
+
+.nav-link a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    margin: 0 auto;
+    padding: 125px 200px 0 200px;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.8rem;
+    height: 600px;
+}
+
+.hero h1 {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.hero p {
+    margin-top: 1.5rem;
+}
+
+
+/* Services */
+
+.services-container {
+    max-width: 800px;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.service {
+    align-items: center;
+}
+
+.kata h1 {
+    color: rgb(52, 156, 158);
+}
+
+.card-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.card-1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 250px;
+    box-shadow: 5px 5px 50px #888888;
+}
+
+.card-1 .image {
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-1 .kata {
+    width: 60%;
+    text-align: justify;
+    font-size: 1.3rem;
+}
+
+.bar-tittle {
+    display: block;
+    width: 70px;
+    height: 6px;
+    border-radius: 5px;
+    background-color: rgb(237, 162, 57);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    margin-bottom: 8rem;
+}
+
+.card-1 p {
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+
+.card-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse
+}
+
+.card-2 .kata {
+    width: 60%;
+    font-size: 1.3rem;
+}
+
+.card-2 .kata p {
+    text-align: justify;
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
+
+.kata .btn {
+    margin-top: 2rem;
+    color: white;
+    background-color: rgb(168, 32, 26);
+    width: 250px;
+    border-radius: 100px;
+    padding: 15px;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+.kata .btn:active {
+    position: relative;
+    box-shadow: none;
+    top: 4px;
+}
+
+.card-2 .image {
+    width: 250px;
+    height: 250px;
+    background-image: url('/images/PRODUCT\ SHOWCASE.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+    box-shadow: 5px 5px 20px #888888;
+}
+
+.card-3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-3 .kata {
+    width: 40%;
+    font-size: 1.3rem;
+}
+
+.card-3 .kata p {
+    font-size: 1.2rem;
+}
+
+.card-3 .image {
+    width: 60%;
+    width: 400px;
+    height: 350px;
+    background-image: url(/images/STORE\ FRONT.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+    box-shadow: 5px 5px 50px #888888;
+}
+
+
+/* ASIDE for Instagram */
+
+.article-container {
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    margin-bottom: 10rem;
+    text-align: center;
+}
+
+.article-container h2 {
+    color: rgb(28, 145, 146);
+}
+
+.article-container p {
+    color: rgb(245, 207, 154);
+    text-decoration: underline;
+}
+
+.article-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 600px;
+}
+
+.card {
+    flex-grow: 1;
+    width: 30%;
+    height: 246.67px;
+    margin: 10px;
+    background-color: #888888;
+    border-radius: 20px;
+}
+
+.box-1 {
+    background-image: url(./images/INSTAGRAM\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box-2 {
+    background-image: url(./images/INSTAGRAM\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box-3 {
+    background-image: url(./images/INSTAGRAM\ 3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box-4 {
+    background-image: url(./images/INSTAGRAM\ 4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box-5 {
+    background-image: url(./images/INSTAGRAM\ 5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box-6 {
+    background-image: url(./images/INSTAGRAM\ 6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* footer  */
+
+footer {
+    margin: 0 auto;
+    max-width: 1224px;
+}
+
+footer .container {
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: rgb(20, 54, 66);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    align-items: flex-start;
+    padding: 30px;
+    padding-top: 60px;
+}
+
+
+/* Footer Left footer */
+
+footer .container .left__footer img {
+    width: 300px;
+    height: 100%;
+}
+
+footer .container .left__footer {
+    width: 30%;
+}
+
+footer .left__footer {
+    align-items: flex-start;
+}
+
+footer .left__footer .bot {
+    margin-top: 20px;
+}
+
+
+/* Footer .right __foooer */
+
+footer .container .right__footer {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .right__footer .footer-link {
+    text-decoration: none;
+    color: rgb(202, 213, 218);
+}
+
+footer .right__footer .footer-link a {
+    text-decoration: none;
+}
+
+footer .right__footer h1 {
+    color: rgb(237, 162, 57);
+    text-align: left;
+}
+
+footer .right__footer li {
+    list-style: none;
+    text-align: left;
+    padding-top: 10px;
+    font-size: 1.3rem;
+}
+
+
+/* Footer ___ Copy Right */
+
+.copy-right {
+    width: 100%;
+    margin-top: 80px;
+    color: #fff;
+    font-size: 1.4rem
+}
