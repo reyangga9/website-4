@@ -9,7 +9,6 @@ const footerMenu = document.getElementsByClassName("footer_menu");
 mobileMenu.addEventListener('click', function() {
     mobileMenu.classList.toggle('is-active');
     navbarMenu.classList.toggle('active');
-    console.log('BISA')
 })
 
 
